@@ -1,0 +1,8 @@
+[package]
+name = "cuda-metrics-v2"
+version = "0.1.0"
+edition = "2021"
+description = "Enhanced metrics — histograms with percentiles, timers with percentiles, gauges with derivatives, and metrics aggregation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
